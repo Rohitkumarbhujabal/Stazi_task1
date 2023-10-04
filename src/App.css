@@ -1,38 +1,56 @@
 .App {
-  text-align: center;
+  background-color: #bcdcfd97;
+  max-width: 100%;
+  margin: 0;
+  padding: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-bar {
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.footer{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.car-count{
+  margin-left: 10px;
+}
+
+.pagination {
+  list-style: none;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.pagination li {
+  margin: 0 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pagination button {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
 }
+
+.pagination button.active {
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+}
+

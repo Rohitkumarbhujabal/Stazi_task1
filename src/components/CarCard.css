@@ -1,0 +1,103 @@
+.car-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #cae2fac7;
+    border: 1px solid #ffffff;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    transition: transform 0.2s;
+    width: 300px;
+  }
+  
+  .car-card:hover {
+    transform: translateY(-3px);
+  }
+  
+  .car-image img {
+    width: 100%;
+    height: 230px;
+    background-size: cover;
+    border-radius: 5px;
+  }
+  
+  .car-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .car-title h3 {
+    margin: 0;
+  }
+  
+  .car-title p {
+    margin: 5px 0;
+    color: #000000;
+    border: 1px solid blue;
+    border-radius: 15px;
+    border-style: dashed;
+    padding: 5px;
+  }
+  
+  .car-properties {
+    display: flex;
+    flex-direction: column;
+    font-size: smaller;
+  }
+  
+  .property-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+  }
+  
+  .property {
+    flex-basis: calc(50% - 5px);
+  }
+  
+  .car-price-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .car-price-buttons p{
+    font-weight: bolder;
+    font-size: large;
+  }
+
+  #price-suffix{
+    font-weight: lighter;
+    font-size: smaller;
+  }
+  
+  .car-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .like-button{
+    background-color: #79baff97;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .buy-button{
+    background-color: #2779d0;
+    color: #fff;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .like-button:hover,
+  .buy-button:hover {
+    background-color: #0056b3;
+  }
+  

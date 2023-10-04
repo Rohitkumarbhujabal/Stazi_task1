@@ -1,0 +1,28 @@
+.search-bar{
+  border: 0.5px solid white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.search-bar input {
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+}
+
+.search-bar input::placeholder {
+  color: #999;
+}
+  
+.relevance-dropdown,
+.brands-dropdown {
+  margin-left: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #cce4fe97;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
